@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example
+    name="LED Bar Graph"    
+>
+<keyword>LED</keyword>
+<description><![CDATA[
+
+<p>Turns on a series of LEDs based on the value of an analog sensor.
+  This is a simple way to make a bar graph display. Though this graph
+  uses 10 LEDs, you can use any number by changing the LED count
+  and the pins in the array.</p>
+  
+<p>  This method can be used to control any series of digital outputs that
+  depends on an analog input.</p>
+ 
+<p>  The circuit:
+   * LEDs from pins 2 through 11 to ground
+   </p>
+ 
+]]>
+ </description>
+ 
+ <author>Tom Igoe</author>
+</example>
+

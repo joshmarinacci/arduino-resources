@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example
+    name="Fade"    
+>
+<keyword>basic</keyword>
+<keyword>LED</keyword>
+<keyword>digitalWrite</keyword>
+<description>
+ This example shows how to fade an LED on pin 9
+ using the analogWrite() function.
+
+ </description>
+</example>
+
