@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<example
+    name="ASCII Table"    
+>
+    <keyword>basic</keyword>
+    <keyword>serial</keyword>
+    
+<description><![CDATA[
+<p>Prints out byte values in all possible formats:</p>
+<ul>
+<li>as raw binary values</li>
+<li>as ASCII-encoded decimal, hex, octal, and binary values</li>
+</ul>
+
+<p>For more on ASCII, see 
+<a href='http://www.asciitable.com/'>http://www.asciitable.com</a>
+and 
+<a href='http://en.wikipedia.org/wiki/ASCII'>http://en.wikipedia.org/wiki/ASCII</a>
+</p>
+ 
+<p>The circuit:  No external hardware needed.</p>
+]]>
+     </description>
+     <author>Nicholas Zambetti</author>
+     <author>Tom Igoe</author>
+</example>
+
