@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<board
+    name="Mega 2560 or Mega ADK"
+    protocol="stk500v2"
+    maximum-size="258048"
+    upload-speed="115200"
+    low-fuses="0xff"
+    high-fuses="0xd8"
+    extended-fuses="0xfd"
+    path="stk500v2"
+    file="stk500boot_v2_mega2560.hex"
+    unlock-bits = "0x3f"
+    lock-bits = "0x0F"
+    mcu="atmega2560"
+    f-cpu="16000000L"
+    core = "arduino"
+    variant = "mega"
+    
+    manufacturer="Arduino CC"
+    homepage="http://www.arduino.cc/en/Main/ArduinoBoardMega2560"
+    operating-voltage="5V"
+    sram="8kb"
+    clockspeed="16mhz"
+/>
+
