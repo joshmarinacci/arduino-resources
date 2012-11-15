@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<board
+    name="Nano w/ ATmega168"
+    protocol="arduino"
+    maximum-size="14336"
+    upload-speed="19200"
+    low-fuses="0xff"
+    high-fuses="0xdd"
+    extended-fuses="0x00"
+    path="atmega"
+    file="ATmegaBOOT_168_diecimila.hex"
+    unlock-bits = "0x3f"
+    lock-bits = "0x0F"
+    mcu="atmega168"
+    f-cpu="16000000L"
+    core = "arduino"
+    variant = "eightanaloginputs"
+    
+    manufacturer="Arduino CC"
+    homepage="http://www.arduino.cc/en/Main/ArduinoBoardNano"
+    operating-voltage="5V"
+    sram="1kb"
+    clockspeed="16mhz"
+/>
+
