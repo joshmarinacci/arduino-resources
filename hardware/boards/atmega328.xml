@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<board
+    name="Arduino Duemilanove w/ ATmega328"
+    protocol="arduino"
+    maximum-size="30720"
+    upload-speed="57600"
+    low-fuses="0xff"
+    high-fuses="0xda"
+    extended-fuses="0x05"
+    path="atmega"
+    file="ATmegaBOOT_168_atmega328.hex"
+    unlock-bits = "0x3f"
+    lock-bits = "0x0F"
+    mcu="atmega328p"
+    f-cpu="16000000L"
+    core = "arduino"
+    variant = "standard"
+    
+    manufacturer="Arduino CC"
+    homepage="http://www.arduino.cc/en/Main/ArduinoBoardDuemilanove"
+    operating-voltage="5V"
+    sram="2kb"
+    clockspeed="16mhz"
+/>
+
